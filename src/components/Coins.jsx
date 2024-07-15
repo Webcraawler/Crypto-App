@@ -57,7 +57,7 @@ export const Coins = () => {
       ) : (
         <>
           <Select
-            maxW={20}
+            maxW={28}
             m="2"
             borderRadius="lg"
             px="1"

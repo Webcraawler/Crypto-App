@@ -196,7 +196,7 @@ export const CoinDetails = () => {
             />
 
             <Box w={"full"} p={"4"}>
-              <Item title={"Max Supply"} value={coin.market_data.max_supply} />
+              <Item title={"Max Supply"} value={coin.market_data.max_supply?coin.market_data.max_supply:"NA"} />
               <Item
                 title={"Circulating Supply"}
                 value={coin.market_data.circulating_supply}
